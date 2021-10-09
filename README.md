@@ -28,13 +28,13 @@ Durante o desenvolvivemento foi econtrado um problema de CORS na API da Deezer, 
 
 # Funcionalidades
 
--   Consultar as músicas brasileiras mais ouvidas
+-   Consultar as músicas brasileiras mais ouvidas no Deezer
 
 -   Realizar buscas por título musical, álbuns ou artistas
 
--   Executa a previa da musica por 30 segundos
+-   Executa a prévia da música por 30 segundos
 
-- Ouvir musica no site do Deezer
+- Ouvir música no site do Deezer
 
 -   Adicionar ou remover músicas a lista de favoritos
 
