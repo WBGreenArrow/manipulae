@@ -21,7 +21,7 @@ Um web app que lista e execulta, uma prévia das musicas brasileiras mais tocada
 
 Desenvolvido para o desafio da Manipulaê
 
-Durante o desenvolvivemento foi econtrado um problema de CORS na API da Deezer, que bloqueia a conexão quando a requisição é feita em localhost. Diante desse problema, foi desenvolvido uma back-end (proxy) feito em nodeJS que fica responsável por comsumir a api do deezer e retornar as dados para appliação react
+Durante o desenvolvivemento foi econtrado um problema de CORS na API da Deezer, que bloqueia a conexão quando a requisição é feita em localhost. Diante desse problema, foi desenvolvido uma back-end (proxy) feito em nodeJS que fica responsável por comsumir a api do Deezer e retornar as dados para appliação ReactJS
 
 <br>
 <br>
