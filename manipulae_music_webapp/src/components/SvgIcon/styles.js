@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Svg = styled.svg`
     display: block;
-    fill: rgb(82, 82, 93);
+    fill: ${(props) => props.color};
 `;
 
 export const Wrapper = styled.div`

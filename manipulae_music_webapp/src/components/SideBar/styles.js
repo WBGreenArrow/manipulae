@@ -4,36 +4,38 @@ export const SideBar = styled.div`
     width: 21.9rem;
     height: 100%;
     border-top: none;
-    border: solid 0.1rem #ececec;
+    border: ${(props) => props.color};
 `;
 
-export const MenuWrapper = styled.div`
+export const MenuWrapper = styled.ul`
     display: flex;
     width: 17rem;
+    margin-top: 6rem;
     justify-content: center;
     flex-direction: column;
     padding-left: 1.4rem;
 `;
 
-export const Item = styled.span`
-    color: rgb(82, 82, 93);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: all 50ms ease-in-out;
-
+export const Item = styled.li`
+    margin-bottom: 1.4rem;
+    .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: ${(props) => props.color};
+    }
     &:hover {
-        color: rgb(239, 84, 102);
+        .nav-link {
+            color: rgb(112, 203, 194);
+        }
         path {
-            fill: rgb(239, 84, 102);
+            fill: rgb(112, 203, 194);
         }
     }
 `;
 
 export const Title = styled.h1`
     width: 100%;
-    font-family: "Opens Sans", sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
 `;

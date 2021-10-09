@@ -7,6 +7,9 @@ import api from "../../services/api";
 import { level1, level2 } from "../../utils/filterLevel";
 
 import ListMusic from "../../components/ListMusic";
+import InforTrack from "../../components/InforTrack";
+
+/*eslint-disable*/
 
 function Home() {
     const dispatch = useDispatch();
@@ -17,12 +20,22 @@ function Home() {
 
     const [filteredTracks, setFilteredTracks] = useState([]);
 
-    const [filterValueSelect, setFilterValueSelect] = useState("artist");
+    const [filterValueSelect, setFilterValueSelect] = useState("title");
 
-    const { tracks, filterValue } = useSelector(({ tracks }) => ({
+    const { tracks, filterValue, favorites, filter_select, track_to_play } = useSelector(({ tracks }) => ({
         tracks: tracks.hits_moment,
         filterValue: tracks.filter_input,
+        favorites: tracks.favorites,
+        filter_select: tracks.filter_select,
+        track_to_play: tracks.track_to_play,
     }));
+
+    useEffect(() => {
+        const favorites = localStorage.getItem("favorites");
+        if (favorites) {
+            dispatch({ type: "SET_ALL_FAVORITES", favorites: JSON.parse(favorites) });
+        }
+    }, []);
 
     useEffect(() => {
         api.get(`/playlist/1111141961?limit=${loadMoreTracks}`)
@@ -42,6 +55,7 @@ function Home() {
     }, [loadMoreTracks]);
 
     useEffect(() => {
+        setFilterValueSelect(filter_select);
         if (filterValue) {
             let valueFiltered = [];
             switch (filterValueSelect) {
@@ -61,14 +75,17 @@ function Home() {
         } else {
             setFilteredTracks(tracks || []);
         }
-    }, [tracks, filterValue]);
+    }, [tracks, filterValue, favorites]);
 
     return (
-        <ListMusic
-            tracks={filteredTracks}
-            isloadState={isloadState}
-            loadMoreTracks={(value) => setLoadMoreTracks((c) => c + value)}
-        />
+        <>
+            <InforTrack track_to_play={track_to_play} />
+            <ListMusic
+                tracks={filteredTracks}
+                isloadState={isloadState}
+                loadMoreTracks={(value) => setLoadMoreTracks((c) => c + value)}
+            />
+        </>
     );
 }
 
