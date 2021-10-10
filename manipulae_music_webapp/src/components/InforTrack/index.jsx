@@ -56,7 +56,7 @@ const InforTrack = ({ track_to_play }) => {
                 )}
             </AlbumImg>
             <TextWrapper>
-                <TrackTitle>{(track_to_play && track_to_play?.title) || "Selecione um Musica"}</TrackTitle>
+                <TrackTitle>{(track_to_play && track_to_play?.title) || "Selecione uma Musica"}</TrackTitle>
                 <TrackArtist>{(track_to_play && track_to_play?.artist?.name) || "..."}</TrackArtist>
                 <ButtonDeezer styles={styles}>
                     {track_to_play?.link && (
