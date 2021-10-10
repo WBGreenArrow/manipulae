@@ -12,12 +12,15 @@
 # Manipulaê Music
 
 Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação dos dados
+   
+   <br>
+   
+   Link da aplicação online: https://manipulae-music-three.vercel.app/ 
+   
 </td>
  
  </tr>
  
- <td>Link da aplicação online: https://manipulae-music-three.vercel.app/ </td>
-
 </table>
 
 <br>
