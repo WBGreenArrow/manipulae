@@ -11,7 +11,7 @@
 
 # Manipulaê Music
 
-Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação de dados
+Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação dos dados
 </td></tr></table>
 
 <br>
