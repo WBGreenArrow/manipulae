@@ -28,14 +28,14 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.get("/playlist/:id", (req, res) => {
+app.get("/chart/", (req, res) => {
     const id = req.params.id;
 
     const querysParams = req.query;
 
     const querys = concatQueryParams(querysParams);
 
-    axios.get(`${apiPath}/playlist/${id}${querys}`).then((response) => {
+    axios.get(`${apiPath}/chart/${id}${querys}`).then((response) => {
         res.statusCode = 200;
 
         return res.json(response.data);

@@ -20,7 +20,7 @@ function Home() {
 
     const [filteredTracks, setFilteredTracks] = useState([]);
 
-    const [filterValueSelect, setFilterValueSelect] = useState("title");
+    const [filterValueSelect, setFilterValueSelect] = useState("");
 
     const { tracks, filterValue, favorites, filter_select, track_to_play } = useSelector(({ tracks }) => ({
         tracks: tracks.hits_moment,
@@ -38,7 +38,7 @@ function Home() {
     }, []);
 
     useEffect(() => {
-        api.get(`/playlist/1111141961?limit=${loadMoreTracks}`)
+        api.get(`/chart/?limit=${loadMoreTracks}`)
             .then((response) => {
                 const {
                     data: {

@@ -3,7 +3,7 @@ const INITIAL_STATE = {
     favorites: [],
     track_to_play: [],
     active_router: "home",
-    filter_select: "",
+    filter_select: "title",
     filter_input: "",
 };
 
