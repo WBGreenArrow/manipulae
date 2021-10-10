@@ -1,4 +1,7 @@
-<img src="./manipulae-music-logo.png" style="display: block; margin: auto;" alt="manipulae-music_logo">
+<p align="center">
+ <img src="./manipulae-music-logo.png" style="display: block; margin: auto;" alt="manipulae-music_logo">
+</p>
+
 <br>
 
 # Manipulaê Music
