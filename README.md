@@ -108,7 +108,7 @@ yarn start
 ```
 <br>
 
-## 🖥 Rodando o front-end
+## 🖥 Rodando o Front-End
 
 Caso já tenha clonado o repositório basta pular a primeira etapa
 
