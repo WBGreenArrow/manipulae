@@ -15,7 +15,7 @@ Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenç
    
    <br>
    
-   Link da aplicação online: https://manipulae-music-three.vercel.app/ 
+   Link da aplicação online: <a href="https://manipulae-music-three.vercel.app/" target="_blank">https://manipulae-music-three.vercel.app/</a> 
    
 </td>
  
