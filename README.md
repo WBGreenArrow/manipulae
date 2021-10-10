@@ -3,7 +3,7 @@
 
 # <center> Manipulaê Music </center>
 
-<center> <p>Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação de dados.</p></center>
+ <p align="center">Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação de dados.</p>
 
 <br>
 
