@@ -14,7 +14,7 @@ import InforTrack from "../../components/InforTrack";
 function Home() {
     const dispatch = useDispatch();
 
-    const [loadMoreTracks, setLoadMoreTracks] = useState(15);
+    const [loadMoreTracks, setLoadMoreTracks] = useState(31);
 
     const [isloadState, setIsLoadState] = useState(true);
 
@@ -39,6 +39,7 @@ function Home() {
 
     useEffect(() => {
         api.get(`/chart/?limit=${loadMoreTracks}`)
+
             .then((response) => {
                 const {
                     data: {
