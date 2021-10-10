@@ -1,14 +1,14 @@
-<p align="center">
- <img src="./manipulae-music-logo.png" style="display: block; margin: auto;" alt="manipulae-music_logo">
-</p>
 
-<br>
+<table align="center">
+ <tr>
+  <td align="center" width="9999">
+<img src="./manipulae-music-logo.png" style="display: block; margin: auto;" alt="manipulae-music_logo">
 
-<div align="center">
 # Manipulaê Music
-</div>
 
- <p align="center">Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação de dados.</p>
+Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação de dados
+</td></tr></table>
+
 
 <br>
 
