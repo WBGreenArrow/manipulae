@@ -1,7 +1,7 @@
 <img src="./manipulae-music-logo.png" align="center">
 <br>
 
-# <center> Manipulaê Music </center>
+#  Manipulaê Music {style=text-align:center}
 
  <p align="center">Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenção e manipulação de dados.</p>
 
