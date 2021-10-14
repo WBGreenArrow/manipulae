@@ -35,7 +35,7 @@ Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenç
 
 # 📃 Sobre o projeto
 
-Um web app que lista e execulta, uma prévia das musicas brasileiras mais tocada no Deezer
+Um web app que lista e execulta, uma prévia das musicas mais tocadas no Deezer
 
 Desenvolvido para o desafio da Manipulaê
 
