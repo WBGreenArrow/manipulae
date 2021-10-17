@@ -30,7 +30,7 @@ Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenç
 <img src="./manipulae-music-screenshots.jpg">
 
 <br>
-<br>
+
 
 
 # 📃 Sobre o projeto
