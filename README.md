@@ -35,11 +35,11 @@ Um web app de musicas feito em ReactJS, que utiliza a API do Deezer para obtenç
 
 # 📃 Sobre o projeto
 
-Um web app que lista e execulta, uma prévia das musicas mais tocadas no Deezer
+Um web app que lista e executa, uma prévia das musicas mais tocadas no Deezer
 
 Desenvolvido para o desafio da Manipulaê
 
-Durante o desenvolvivemento foi econtrado um problema de CORS na API da Deezer, que bloqueia a conexão quando a requisição é feita em localhost. Diante desse problema, foi desenvolvido uma back-end (proxy) feito em nodeJS que fica responsável por comsumir a api do Deezer e retornar as dados para appliação ReactJS
+Durante o desenvolvimento foi encontrado um problema de CORS na API da Deezer, que bloqueia a conexão quando a requisição é feita em localhost. Diante desse problema, foi desenvolvido uma back-end (proxy) feito em nodeJS que fica responsável por consumir a api do Deezer e retornar as dados para aplicação ReactJS
 
 <br>
 <br>
@@ -72,7 +72,6 @@ Durante o desenvolvivemento foi econtrado um problema de CORS na API da Deezer, 
 
 -   ⚛ React - Single page application
 -   ⚛ React Router Dom - Controle de rotas
--   ⚛ Redux - Controle de estado das musicas e lista de favoritos
 -   ⚛ React redux - Controle de estado das musicas e lista de favoritos
 -   Styled-Components - Para a estilização dos componetes
 -   📡Axios - Comunicação com a API Back-End
