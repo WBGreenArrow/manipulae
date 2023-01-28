@@ -73,7 +73,7 @@ Durante o desenvolvimento foi encontrado um problema de CORS na API da Deezer, q
 -   ⚛ React - Single page application
 -   ⚛ React Router Dom - Controle de rotas
 -   ⚛ React redux - Controle de estado das musicas e lista de favoritos
--   Styled-Components - Para a estilização dos componetes
+-   Styled-Components - Para a estilização dos componentes
 -   📡Axios - Comunicação com a API Back-End
 
 <br>
